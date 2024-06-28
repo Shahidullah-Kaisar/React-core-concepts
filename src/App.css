@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h2{
+  color: green;
+}
+
+.box{
+  border: 2px solid rebeccapurple;
+  border-radius: 5px;
+  margin: 5px;
+  width: 350px;
+}
+.main-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
